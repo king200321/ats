@@ -5,6 +5,7 @@ google-generativeai
 setuptools
 wheel
 plotly
+numpy
 pyrebase4
 python-dotenv
 spacy
