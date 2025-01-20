@@ -1,22 +1,18 @@
-firebase-admin
-pyrebase
-streamlit
-# Core dependencies
-streamlit
-google-generativeai
-st-circular-progress
-
-# For PDF processing
-PyPDF2
-
-# For NLP and text processing
-spacy
-spacy-model-en-core-web-sm
-re
-
-# Data processing and visualization
 pandas
+PyPDF2
+firebase-admin
+google-generativeai
+pip
+setuptools
+wheel
 plotly
-
-# For deployment (optional but recommended)
-gunicorn
+pyrebase4
+python-dotenv
+spacy
+thinc
+streamlit
+streamlit-extras
+streamlit-option-menu
+st-circular-progress
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
