@@ -2,12 +2,12 @@ pandas
 PyPDF2
 firebase-admin
 google-generativeai
-pip
 setuptools
 wheel
 plotly
 pyrebase4
 python-dotenv
+spacy
 thinc
 streamlit
 streamlit-extras
@@ -15,4 +15,3 @@ streamlit-option-menu
 st-circular-progress
 spacy
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
-pip install --upgrade pip
