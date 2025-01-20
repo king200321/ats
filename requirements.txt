@@ -1,18 +1,24 @@
+# Essential Libraries
 pandas
 PyPDF2
 firebase-admin
 google-generativeai
-pip
-setuptools
-wheel
-plotly
 pyrebase4
 python-dotenv
-spacy
-thinc
-streamlit
+
+# Visualization Tools
+plotly
+st-circular-progress
 streamlit-extras
 streamlit-option-menu
-st-circular-progress
-spacy
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+
+# Core Dependencies
+streamlit==1.25.0  # Pinning to a specific version
+spacy==3.5.2       # SpaCy for NLP tasks
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+
+# Build Tools (to resolve compilation issues)
+setuptools>=65.5.1
+wheel>=0.41.2
+Cython>=0.29.36
+numpy>=1.23.0
