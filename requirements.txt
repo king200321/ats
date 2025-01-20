@@ -1,22 +1,22 @@
-firebase-admin==6.0.1
-pyrebase==3.0.27
-streamlit==1.18.1
+firebase-admin
+pyrebase
+streamlit
 # Core dependencies
-streamlit==1.24.1
-google-generativeai==0.1.4
-st-circular-progress==0.0.7
+streamlit
+google-generativeai
+st-circular-progress
 
 # For PDF processing
-PyPDF2==3.0.1
+PyPDF2
 
 # For NLP and text processing
-spacy==3.6.0
-spacy-model-en-core-web-sm==3.6.0
-re==2.2.1  # regex module (should be built-in)
+spacy
+spacy-model-en-core-web-sm
+re
 
 # Data processing and visualization
-pandas==1.5.3
-plotly==5.12.0
+pandas
+plotly
 
 # For deployment (optional but recommended)
-gunicorn==20.1.0
+gunicorn
